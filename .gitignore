@@ -1,0 +1,8 @@
+reference/
+.venv/
+.env
+config.json
+__pycache__/
+.claude/
+workout-timer.zip
+.DS_Store

@@ -1,0 +1,9 @@
+{
+  "format_version": 1,
+  "id": "app.teunbruijnen.workout_timer",
+  "name": "Workout Timer",
+  "version": "1.0.0",
+  "api_version": "27.12.0",
+  "description": "Tabata, fixed-rest and fixed-work intervals",
+  "author": "teunbruijnen"
+}

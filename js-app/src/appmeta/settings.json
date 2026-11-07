@@ -1,0 +1,59 @@
+{
+  "format_version": 1,
+  "version": 1,
+  "fields": {
+    "get_ready": {
+      "label": "Get ready",
+      "description": "Seconds before the first round. 0 is off.",
+      "type": "integer",
+      "default": 5,
+      "min": 0,
+      "max": 15
+    },
+    "sound": {
+      "label": "Sound",
+      "type": "boolean",
+      "default": true
+    },
+    "step": {
+      "label": "Time step",
+      "description": "How far one wheel click moves the seconds.",
+      "type": "enum",
+      "default": "5",
+      "options": [
+        {
+          "value": "1",
+          "label": "1 sec"
+        },
+        {
+          "value": "5",
+          "label": "5 sec"
+        },
+        {
+          "value": "10",
+          "label": "10 sec"
+        },
+        {
+          "value": "15",
+          "label": "15 sec"
+        }
+      ]
+    },
+    "skip_with": {
+      "label": "Skip with",
+      "description": "The button that skips a phase. The other one pauses.",
+      "type": "enum",
+      "default": "ok",
+      "options": [
+        {
+          "value": "ok",
+          "label": "OK"
+        },
+        {
+          "value": "start",
+          "label": "START"
+        }
+      ]
+    }
+  }
+}

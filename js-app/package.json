@@ -1,0 +1,27 @@
+{
+  "name": "workout-timer",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Workout Timer for the BUSY Bar: Tabata, fixed-rest and fixed-work intervals",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc",
+    "test": "node --test \"test/*.test.ts\"",
+    "icons": "node tools/make-icons.mjs",
+    "build": "busy-cli build",
+    "release": "busy-cli build && node tools/clean-tgz.mjs",
+    "app:install": "busy-cli app install",
+    "app:uninstall": "busy-cli app uninstall",
+    "app:run": "busy-cli app run",
+    "app:stop": "busy-cli app stop"
+  },
+  "engines": {
+    "node": ">=24 <26"
+  },
+  "devDependencies": {
+    "@busy-app/cli": "^0.6.0",
+    "typescript": "~6.0.3",
+    "vite": "8.1.4"
+  }
+}
